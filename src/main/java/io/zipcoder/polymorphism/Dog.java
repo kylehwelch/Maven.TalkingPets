@@ -1,15 +1,15 @@
 package io.zipcoder.polymorphism;
 
-public class Dog extends Pets {
+public class Dog extends Pet {
     public Dog () {
         this.name = "";
-        this.speak = "";
-        this.type = "dog";
+        this.speak = "Woof!";
+        this.type = "Dog";
     }
-    public Dog (String name, String speak, String type){
+    public Dog (String name){
         this.name = name;
-        this.speak = speak;
-        this.type = type;
+        this.speak = "Woof!";
+        this.type = "Dog";
     }
 
 }
