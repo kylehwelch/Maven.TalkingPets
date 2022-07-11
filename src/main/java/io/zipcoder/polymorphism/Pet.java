@@ -14,8 +14,12 @@ public class Pet {
         this.speak = "";
         this.type = "Pet";
     }
-
-
+    @Override
+    public String toString(){
+        String studentString =  "Pet Name: " + getName() + "\n" +
+                "> Pet Type: " + getType() + "\n" +
+                "> Pet Sound:" + getSpeak();
+        return studentString;}
 
     //SETTERS
     public void setName(String name) {this.name = name;}
