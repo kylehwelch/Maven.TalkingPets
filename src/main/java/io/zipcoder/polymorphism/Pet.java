@@ -15,6 +15,8 @@ public class Pet {
         this.type = "Pet";
     }
 
+
+
     //SETTERS
     public void setName(String name) {this.name = name;}
     public void setSpeak(String speak) {this.speak = speak;}
